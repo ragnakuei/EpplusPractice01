@@ -38,7 +38,7 @@ namespace EpplusPractice01
                 item.pm    = sheet.Cells[rowIndex, 5].GetValue<string>();
                 item.MRP   = sheet.Cells[rowIndex, 6].GetValue<string>();
                 item.NG    = sheet.Cells[rowIndex, 8].GetValue<string>();
-                item.Total = sheet.Cells[rowIndex, 10].GetValue<string>();
+                item.Total = sheet.Cells[rowIndex, 10].GetValue<int?>();
                 item.type  = sheet.Cells[rowIndex, 11].GetValue<string>();
                 item.May   = sheet.Cells[rowIndex, 12].GetValue<string>();
                 item.MTDA  = sheet.Cells[rowIndex, 13].GetValue<string>();

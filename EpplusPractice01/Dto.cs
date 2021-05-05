@@ -9,7 +9,7 @@ namespace EpplusPractice01
         public          string pm    { get; set; }
         public          string MRP   { get; set; }
         public          string NG    { get; set; }
-        public          string Total { get; set; }
+        public          int? Total { get; set; }
         public          string type  { get; set; }
         public          string May   { get; set; }
         public          string MTDA  { get; set; }
